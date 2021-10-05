@@ -1,0 +1,416 @@
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
+  .site_header {
+    background-color: #0d0041;
+  }
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  .site_nav .navbar-brand {
+    display: inline-block;
+    max-width: 100px;
+  }
+  .site_nav .navbar-nav .nav-item {
+    padding: 0px;
+  }
+
+  .WhatWeDeliver_box {
+    padding: 20px 50px 30px;
+  }
+  .WhatWeDeliver_btn {
+    left: 0px;
+  }
+  .TheTeam_item_box {
+    width: 100%;
+    max-width: 260px;
+  }
+  .site_header_2 {
+    background: none;
+  }
+}
+@media only screen and (max-width: 768px),
+  only screen and (max-device-width: 768px) {
+  .corona_image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+    max-width: 300px;
+    padding-bottom: 30px;
+  }
+  .hero_content {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .hero_hr {
+    margin: 23px 0;
+  }
+  .hero_content h2 {
+    font-size: 44px;
+    line-height: 70px;
+  }
+  .common_header,
+  .common_txt,
+  .WhoWeAre_area {
+    text-align: center;
+  }
+  .WhatWeDeliver_item {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .TheTeam_item_box {
+    margin: 0 auto;
+  }
+  .TheTeam_item:after {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: -24px;
+  }
+  .TheTeam_area .col-md-4 {
+    padding-top: 30px;
+  }
+  .WhatWeDeliver_area {
+    padding: 0px 20px;
+  }
+  .contact_txt {
+    text-align: center;
+  }
+  .WeAreTogether_area h3 {
+    left: 0px;
+  }
+  .product_sec_mob_img {
+    display: block;
+  }
+  .product_sec_1_img {
+    display: none;
+  }
+  .product_view {
+    position: relative;
+    max-width: 338px;
+  }
+  .product_biocredit_item {
+    padding-left: 0px;
+  }
+  .biocredit_txt_small ul {
+    margin-left: 0px;
+  }
+  .corona_positive,
+  .corona_negative {
+    margin-left: 0px;
+    display: inline-block;
+  }
+  .product_view {
+    padding-bottom: 30px;
+  }
+  .product_biocredit_box {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .product_biocredit_area {
+    padding-top: 20px;
+  }
+  .product_sec_1 {
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .inner_hero_area {
+    padding: 150px 0px 50px;
+  }
+  .warning_area_box {
+    border-radius: 20px;
+    border: solid 1px #91eab0;
+    background-color: rgba(145, 234, 176, 0.3);
+    padding: 18px 30px 33px 70px;
+    position: relative;
+  }
+  .warning_area_full .warning_area_icon {
+    left: 23px;
+  }
+  .warning_area_full .warning_area_box {
+    padding-left: 70px;
+  }
+  .warning_area_icon {
+    left: 23px;
+  }
+  .product_hero_right {
+    padding-left: 0px;
+  }
+  .product_howitwork_list ul {
+    padding-left: 25px;
+  }
+  .product_howitwork_video {
+    padding-left: 0px;
+  }
+  .madal_next_btn,
+  .madal_next_btn button {
+    max-width: 100% !important;
+  }
+  .inner_hero_area_new {
+    padding: 150px 24px 50px;
+  }
+  .become_partner_area {
+    padding: 50px 20px;
+  }
+  .become_partner_txt,
+  .become_partner_form {
+    margin: 30px auto 0px;
+    text-align: center;
+  }
+  .roadmap_area {
+    padding: 70px 20px;
+  }
+  .roadmap_item {
+    text-align: left;
+    padding-top: 30px;
+    margin-top: 0px;
+    padding-left: 60px;
+  }
+  .roadmap_item_st {
+    position: absolute;
+    top: 37px;
+    left: 15px;
+    width: 30px;
+    height: 2px;
+    margin-left: 0px;
+  }
+  .road_map_go {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 100%;
+    margin-top: 0px;
+  }
+  .road_map_go img {
+    margin-left: -48px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+  }
+  .road_map_go_border_box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 4px;
+    height: 100%;
+    border-radius: 50px;
+  }
+  .road_map_go_border {
+    width: 2px;
+    height: 100%;
+    box-shadow: 0 2px 20px 0 rgba(255, 255, 255, 0.7);
+    border-style: solid;
+    border-image-source: linear-gradient(to bottom, #ddf6bc 14%, #86e9bc 76%);
+    border-image-slice: 1;
+  }
+  .road_map_go img {
+    margin-left: 0px;
+    left: -28px !important;
+  }
+  .go_33 {
+    top: 22% !important;
+  }
+  .roadmap_box {
+    margin-top: 40px;
+  }
+  .hero_content {
+    text-align: center;
+  }
+  .corona_image,
+  .hero_content p {
+    margin: 0 auto;
+  }
+  .hero_hr {
+    margin: 23px auto;
+  }
+  .common_btn {
+    margin: 40px auto 0px;
+  }
+  .product_home_sec h4 {
+  }
+  .txt_mobile_center {
+    text-align: center;
+  }
+  .product_home_sec {
+    text-align: center;
+  }
+  .product_home_sec p {
+    margin: 0 auto;
+  }
+
+  .desktop_none {
+    display: block !important;
+  }
+
+  .mobile_none {
+    display: none !important;
+  }
+
+  .signup_card {
+    margin: 30px auto 0px;
+  }
+  .signup_hero {
+    padding: 120px 15px 30px;
+  }
+  .signup_hero h2 {
+    font-size: 31px;
+    line-height: 60px;
+  }
+  .inner_hero_area p {
+    font-size: 16px;
+    list-style: 32px;
+  }
+  .team_area {
+    padding-bottom: 70px;
+  }
+  .team_item {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 660px) {
+  .modal-dialog {
+    margin: 0;
+  }
+  .modal-content {
+    margin: 45px 15px;
+  }
+  .modal_close_btn {
+    top: -38px;
+    right: 7px;
+  }
+  .warning_area {
+    padding: 0px 15px;
+  }
+}
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  .hero_content h2 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .hero_hr {
+    max-width: 90%;
+  }
+  .hero_content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .WhoWeAre_area h3 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  .WhoWeAre_area {
+    padding-bottom: 50px;
+  }
+  .WhatWeDeliver_box {
+    padding: 20px 10px 30px;
+  }
+  .common_header h4 {
+    line-height: 60px;
+  }
+  .WhatWeDeliver_area .col-md-4,
+  .WhatWeDeliver_area .col-md-8 {
+    padding-top: 30px;
+  }
+  .TheTeam_item:after {
+    top: 170px;
+    margin-top: 0px;
+    width: 100%;
+    max-width: 306px;
+  }
+  .TheTeam_item {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .contact_txt h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .site_footer {
+    padding: 25px 0px;
+    text-align: center;
+    position: relative;
+  }
+  .common_btn {
+    margin-top: 32px;
+  }
+  .product_sec_1_box {
+    padding: 0px 15px 30px;
+  }
+  .biocredit_txt_big p:first-child {
+    padding-bottom: 0px;
+  }
+  .modal_area p br {
+    display: none;
+  }
+  .product_hero {
+    padding: 160px 0px 50px;
+  }
+  .product_hero h2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .product_hero p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .product_howitwork_list {
+    padding-top: 0px;
+  }
+  .product_howitwork_list ul li {
+    padding-bottom: 20px;
+  }
+  .product_howitwork {
+    padding-bottom: 50px;
+  }
+  .result_box_img img {
+    width: 100%;
+  }
+  .result_box_txt p br {
+    display: none;
+  }
+  .result_box_img .col-6,
+  .result_box_img .col-12 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .warning_area_blue2 .warning_area_box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+  }
+  .warning_area_blue2 {
+    padding-left: 0px;
+  }
+  .result_box_img {
+    height: auto;
+  }
+  .result_box_img2 {
+    min-height: 50px;
+    display: block;
+  }
+  .wellcome_item h4 {
+    font-size: 36px;
+    line-height: 120%;
+  }
+  /*************Map image***********/
+  .map_image a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .map_image img {
+    border-radius: 10px;
+    height: 70%;
+    max-width: 70%;
+  }
+}
