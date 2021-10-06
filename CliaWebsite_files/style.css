@@ -633,21 +633,13 @@ a:focus {
 .submit_btn {
   width: 233px;
   height: 59px;
-  text-align: center;
-  position: relative;
-  margin: 0 auto;
-  padding-top: 8px;
 
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+  margin: 0 0;
 }
 .submit_btn:before {
   /* content: ""; */
-  position: absolute;
+  /* position: absolute; */
   top: 1px;
-  display: flex;
-  justify-content: flex-end;
   width: 133px;
   height: 59px;
   opacity: 0.3;
@@ -669,8 +661,6 @@ a:focus {
   background-origin: border-box;
   background-clip: content-box, border-box;
   color: #0d0041;
-  position: relative;
-  z-index: 10;
 }
 .submit_btn button:hover {
   color: #0d0041;
@@ -2514,6 +2504,36 @@ a:focus {
 .modal_area_2 .madal_next_btn button {
   width: 108px;
 }
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #0e0043;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin-left: 5px;
+  display: none;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .snackbar {
   border-radius: 5px;
@@ -2533,12 +2553,12 @@ a:focus {
 
   font-size: 17px;
   height: 60px;
-  background-image: linear-gradient(
-    167deg,
-    white 1%,
-    white 63%,
-    white 63%
-  );
+  background-image: linear-gradient(167deg, white 1%, white 63%, white 63%);
+}
+.loader-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #snackbar.show {
