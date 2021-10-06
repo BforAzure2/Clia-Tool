@@ -15,7 +15,15 @@ const isZipCodeEqual = zipCode => {
   let inputZipCode = document.getElementById("ZipCode").value;
   return inputZipCode.toLowerCase() === zipCode.toLowerCase();
 };
+
+const goBack = () => {
+  window.location.href = "./Index.html";
+};
 const validateClianNumber = async () => {
+  let loadBtn = document.querySelector(".loader-btn");
+  let loader = document.querySelector(".loader");
+  loader.style.display = "block";
+  loadBtn.disabled = true;
   let toast = document.getElementById("toast");
   const inputClianNumber = document.getElementById("clia-number").value;
   const token =
@@ -34,10 +42,13 @@ const validateClianNumber = async () => {
       // invali clian Number
       toast.style.visibility = "visible";
       toast.style.color = "red";
-      toast.innerHTML = "CLIA Number is not validated. Please contact our support.";
+      toast.innerHTML =
+        "CLIA Number is not validated. Please contact our support.";
       setTimeout(function () {
         toast.style.visibility = "hidden";
       }, 3000);
+      loader.style.display = "none";
+      loadBtn.disabled = false;
     } else {
       // valid clian Number
 
@@ -47,16 +58,21 @@ const validateClianNumber = async () => {
         isStateEqual(cliaNumber.CLIA[0].STATE) &&
         isZipCodeEqual(cliaNumber.CLIA[0].ZIP)
       ) {
+        loader.style.display = "none";
+        loadBtn.disabled = false;
         // valid address
         window.location.href = "./ValidationSuccess.html";
       } else {
         // invalid address
         toast.style.visibility = "visible";
         toast.style.color = "red";
-        toast.innerHTML = "Address is not matched with CLIA number.Please contact our support.";
+        toast.innerHTML =
+          "Address is not matched with CLIA number.Please contact our support.";
         setTimeout(function () {
           toast.style.visibility = "hidden";
         }, 3000);
+        loader.style.display = "none";
+        loadBtn.disabled = false;
       }
     }
   } else {
@@ -67,5 +83,7 @@ const validateClianNumber = async () => {
     setTimeout(function () {
       toast.style.visibility = "hidden";
     }, 3000);
+    loader.style.display = "none";
+    loadBtn.disabled = false;
   }
 };
