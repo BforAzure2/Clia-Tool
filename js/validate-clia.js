@@ -17,7 +17,7 @@ const isZipCodeEqual = zipCode => {
 };
 
 const goBack = () => {
-  window.location.href = "./Index.html";
+  window.location.href = "./index.html";
 };
 const validateClianNumber = async () => {
   let loadBtn = document.querySelector(".loader-btn");
